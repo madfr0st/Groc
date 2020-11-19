@@ -1,0 +1,18 @@
+ out.write("<form class=\"form\">\r\n");
+      out.write("    <div class =\"whole\">\r\n");
+      out.write("    <div class=\"three-group\">\r\n");
+      out.write("        <div class=\"single-item\">\r\n");
+      out.write("            <div class=\"imgbox\">\r\n");
+      out.write("            <img class=\"img\" src=\"images/fruits/apple.jpg\" alt=\"apple\">\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div class=\"info\">\r\n");
+      out.write("                <l>Apples</l><br>\r\n");
+      out.write("                <l> Order in grams</l>  \r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div class=\"lowkey\">\r\n");
+      out.write("            <input class=\"amount\" type=text name=apple_amount>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("</form>\r\n");

@@ -1,0 +1,344 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+
+.copyright-text {
+    text-transform: uppercase;
+}
+
+.main-button a {
+    background-color: #3a8bcd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.main-button a:hover {
+    opacity: 0.7;
+}
+
+.section-heading {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.section-heading .line-dec {
+    width: 30px;
+    height: 5px;
+    background-color: #3a8bcd;
+}
+
+.section-heading h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-top: 15px;
+}
+
+/* products */
+.form {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.whole {
+    height: 350px;
+    display: block;
+
+
+}
+
+.three-group {
+    display: block;
+    width: 1215px;
+    height: 350px;
+    margin: auto;
+}
+
+.single-item {
+
+    border: 1px solid;
+
+    display: inline-block;
+    width: 300px;
+    height: 310px;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.imgbox {
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.amount {
+    width: 100px;
+
+}
+
+
+
+/*button*/
+.cartButton {
+    background-color: #0f9d58;
+    margin: auto;
+    display: block;
+    width: 190px;
+
+}
+
+.tm-flex-lr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-large {
+    padding: 0 77px;
+    border-radius: 5px;
+    background-color: black;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.btn-large-white {
+    background-color: greenyellow;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+/* Banner Style */
+.banner {
+    margin-top: 100px;
+    background-image: url(../images/whale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+    background-position: center center;
+}
+
+.banner .caption {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 30px;
+    max-width: 450px;
+}
+
+.banner .caption h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.banner .caption .line-dec {
+    width: 30px;
+    height: 5px;
+    background-color: #3a8bcd;
+}
+
+.banner .caption p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* Subscribe Style */
+.subscribe-form {
+    display: block;
+    margin-top: auto;
+    background-color: #3a8bcd;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.subscribe-form .section-heading {
+    margin-top: 0px;
+}
+
+.subscribe-form .section-heading h1 {
+    color: #fff;
+}
+
+.subscribe-form .section-heading .line-dec {
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.subscribe-form .main-content p {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.subscribe-form .main-content form {
+    color: #fff;
+    display: inline;
+}
+
+.subscribe-form .main-content form input {
+    display: inline;
+}
+
+.subscribe-form .main-content form input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding-left: 15px;
+    color: #fff;
+    outline: none;
+}
+
+.subscribe-form .main-content form button:focus {
+    color: #fff !important;
+}
+
+.subscribe-form .main-content form button {
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #3a8bcd;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    transition: all 0.5s;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* Footer Style */
+.footer {
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .logo img {
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.footer .footer-menu {
+    margin-bottom: 40px;
+}
+
+.footer .footer-menu ul li {
+    margin: 0px 15px;
+}
+
+.footer .footer-menu a {
+    font-size: 13px;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.footer .footer-menu a:hover {
+    color: #3a8bcd;
+    text-decoration: none;
+}
+
+.footer .social-icons {
+    margin-bottom: 60px;
+}
+
+.footer .social-icons ul li {
+    margin: 0px 10px;
+}
+
+.footer .social-icons a {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background-color: #aaa;
+    text-align: center;
+    display: inline-block;
+    line-height: 33px;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.footer .social-icons a:hover {
+    background-color: #3a8bcd;
+}

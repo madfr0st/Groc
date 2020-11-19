@@ -1,0 +1,26 @@
+** fruits
+fruits
+apple
+banana
+orange
+watermelon
+** vegetables
+vegetables
+brinjal
+capsicum
+carrot
+cauliflower
+ladyfinger
+lemon
+onion
+potato
+radish
+spinach
+tomato
+** grocery
+grocery
+egg
+patanjalioil
+rice
+wheat
+sugar
